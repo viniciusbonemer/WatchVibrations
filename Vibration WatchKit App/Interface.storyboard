@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.18" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14238.10"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Vibration_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="center" verticalAlignment="bottom" title="VIBRATE" id="qbP-bF-QQ4">
+                            <connections>
+                                <action selector="vibrate" destination="AgC-eL-Hgc" id="ETk-Xz-Qe7"/>
+                            </connections>
+                        </button>
+                        <picker height="100" alignment="left" id="7k4-dR-Obq">
+                            <connections>
+                                <action selector="pickerChanges:" destination="AgC-eL-Hgc" id="Q0c-rX-SW5"/>
+                            </connections>
+                        </picker>
+                        <label alignment="center" verticalAlignment="bottom" text="By Carly and Vini" id="0uu-kZ-DcZ"/>
+                    </items>
+                    <connections>
+                        <outlet property="button" destination="qbP-bF-QQ4" id="JJW-gz-VQQ"/>
+                        <outlet property="pickerView" destination="7k4-dR-Obq" id="Cij-mm-c5b"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="219.69230769230771" y="344.79487179487182"/>
+        </scene>
+    </scenes>
+</document>

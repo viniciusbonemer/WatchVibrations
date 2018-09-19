@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBF6EFF72152D7E6005CA373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6EFF62152D7E6005CA373 /* AppDelegate.swift */; };
+		FBF6EFF92152D7E6005CA373 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6EFF82152D7E6005CA373 /* ViewController.swift */; };
+		FBF6EFFC2152D7E6005CA373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF6EFFA2152D7E6005CA373 /* Main.storyboard */; };
+		FBF6EFFE2152D7E6005CA373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF6EFFD2152D7E6005CA373 /* Assets.xcassets */; };
+		FBF6F0012152D7E6005CA373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF6EFFF2152D7E6005CA373 /* LaunchScreen.storyboard */; };
+		FBF6F0062152D7E7005CA373 /* Vibration WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FBF6F0052152D7E7005CA373 /* Vibration WatchKit App.app */; };
+		FBF6F00E2152D7E7005CA373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF6F00D2152D7E7005CA373 /* Assets.xcassets */; };
+		FBF6F0152152D7E7005CA373 /* Vibration WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FBF6F0142152D7E7005CA373 /* Vibration WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FBF6F01C2152D7E7005CA373 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6F01B2152D7E7005CA373 /* ExtensionDelegate.swift */; };
+		FBF6F0202152D7E8005CA373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF6F01F2152D7E8005CA373 /* Assets.xcassets */; };
+		FBF6F0312152D89B005CA373 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF6F0302152D89B005CA373 /* Interface.storyboard */; };
+		FBF6F0332152D8C3005CA373 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF6F0322152D8C3005CA373 /* InterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBF6F0072152D7E7005CA373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBF6EFEB2152D7E6005CA373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF6F0042152D7E7005CA373;
+			remoteInfo = "Vibration WatchKit App";
+		};
+		FBF6F0162152D7E7005CA373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBF6EFEB2152D7E6005CA373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBF6F0132152D7E7005CA373;
+			remoteInfo = "Vibration WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBF6F0282152D7E8005CA373 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FBF6F0152152D7E7005CA373 /* Vibration WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF6F02C2152D7E8005CA373 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FBF6F0062152D7E7005CA373 /* Vibration WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FBF6EFF32152D7E6005CA373 /* Vibration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vibration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF6EFF62152D7E6005CA373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBF6EFF82152D7E6005CA373 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBF6EFFB2152D7E6005CA373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBF6EFFD2152D7E6005CA373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF6F0002152D7E6005CA373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBF6F0022152D7E6005CA373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF6F0052152D7E7005CA373 /* Vibration WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vibration WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF6F00D2152D7E7005CA373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF6F00F2152D7E7005CA373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF6F0142152D7E7005CA373 /* Vibration WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Vibration WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF6F01B2152D7E7005CA373 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FBF6F01F2152D7E8005CA373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF6F0212152D7E8005CA373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF6F0222152D7E8005CA373 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		FBF6F0302152D89B005CA373 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		FBF6F0322152D8C3005CA373 /* InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF6EFF02152D7E6005CA373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF6F0112152D7E7005CA373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBF6EFEA2152D7E6005CA373 = {
+			isa = PBXGroup;
+			children = (
+				FBF6EFF52152D7E6005CA373 /* Vibration */,
+				FBF6F0092152D7E7005CA373 /* Vibration WatchKit App */,
+				FBF6F0182152D7E7005CA373 /* Vibration WatchKit Extension */,
+				FBF6EFF42152D7E6005CA373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF6EFF42152D7E6005CA373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF6EFF32152D7E6005CA373 /* Vibration.app */,
+				FBF6F0052152D7E7005CA373 /* Vibration WatchKit App.app */,
+				FBF6F0142152D7E7005CA373 /* Vibration WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF6EFF52152D7E6005CA373 /* Vibration */ = {
+			isa = PBXGroup;
+			children = (
+				FBF6EFF62152D7E6005CA373 /* AppDelegate.swift */,
+				FBF6EFF82152D7E6005CA373 /* ViewController.swift */,
+				FBF6EFFA2152D7E6005CA373 /* Main.storyboard */,
+				FBF6EFFD2152D7E6005CA373 /* Assets.xcassets */,
+				FBF6EFFF2152D7E6005CA373 /* LaunchScreen.storyboard */,
+				FBF6F0022152D7E6005CA373 /* Info.plist */,
+			);
+			path = Vibration;
+			sourceTree = "<group>";
+		};
+		FBF6F0092152D7E7005CA373 /* Vibration WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FBF6F0302152D89B005CA373 /* Interface.storyboard */,
+				FBF6F00D2152D7E7005CA373 /* Assets.xcassets */,
+				FBF6F00F2152D7E7005CA373 /* Info.plist */,
+			);
+			path = "Vibration WatchKit App";
+			sourceTree = "<group>";
+		};
+		FBF6F0182152D7E7005CA373 /* Vibration WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FBF6F0322152D8C3005CA373 /* InterfaceController.swift */,
+				FBF6F01B2152D7E7005CA373 /* ExtensionDelegate.swift */,
+				FBF6F01F2152D7E8005CA373 /* Assets.xcassets */,
+				FBF6F0212152D7E8005CA373 /* Info.plist */,
+				FBF6F0222152D7E8005CA373 /* PushNotificationPayload.apns */,
+			);
+			path = "Vibration WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF6EFF22152D7E6005CA373 /* Vibration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF6F02D2152D7E8005CA373 /* Build configuration list for PBXNativeTarget "Vibration" */;
+			buildPhases = (
+				FBF6EFEF2152D7E6005CA373 /* Sources */,
+				FBF6EFF02152D7E6005CA373 /* Frameworks */,
+				FBF6EFF12152D7E6005CA373 /* Resources */,
+				FBF6F02C2152D7E8005CA373 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBF6F0082152D7E7005CA373 /* PBXTargetDependency */,
+			);
+			name = Vibration;
+			productName = Vibration;
+			productReference = FBF6EFF32152D7E6005CA373 /* Vibration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBF6F0042152D7E7005CA373 /* Vibration WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF6F0292152D7E8005CA373 /* Build configuration list for PBXNativeTarget "Vibration WatchKit App" */;
+			buildPhases = (
+				FBF6F0032152D7E7005CA373 /* Resources */,
+				FBF6F0282152D7E8005CA373 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBF6F0172152D7E7005CA373 /* PBXTargetDependency */,
+			);
+			name = "Vibration WatchKit App";
+			productName = "Vibration WatchKit App";
+			productReference = FBF6F0052152D7E7005CA373 /* Vibration WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FBF6F0132152D7E7005CA373 /* Vibration WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF6F0252152D7E8005CA373 /* Build configuration list for PBXNativeTarget "Vibration WatchKit Extension" */;
+			buildPhases = (
+				FBF6F0102152D7E7005CA373 /* Sources */,
+				FBF6F0112152D7E7005CA373 /* Frameworks */,
+				FBF6F0122152D7E7005CA373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vibration WatchKit Extension";
+			productName = "Vibration WatchKit Extension";
+			productReference = FBF6F0142152D7E7005CA373 /* Vibration WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF6EFEB2152D7E6005CA373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Vinícius Bonemer";
+				TargetAttributes = {
+					FBF6EFF22152D7E6005CA373 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					FBF6F0042152D7E7005CA373 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					FBF6F0132152D7E7005CA373 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = FBF6EFEE2152D7E6005CA373 /* Build configuration list for PBXProject "Vibration" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBF6EFEA2152D7E6005CA373;
+			productRefGroup = FBF6EFF42152D7E6005CA373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF6EFF22152D7E6005CA373 /* Vibration */,
+				FBF6F0042152D7E7005CA373 /* Vibration WatchKit App */,
+				FBF6F0132152D7E7005CA373 /* Vibration WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF6EFF12152D7E6005CA373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF6F0012152D7E6005CA373 /* LaunchScreen.storyboard in Resources */,
+				FBF6EFFE2152D7E6005CA373 /* Assets.xcassets in Resources */,
+				FBF6EFFC2152D7E6005CA373 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF6F0032152D7E7005CA373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF6F0312152D89B005CA373 /* Interface.storyboard in Resources */,
+				FBF6F00E2152D7E7005CA373 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF6F0122152D7E7005CA373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF6F0202152D7E8005CA373 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF6EFEF2152D7E6005CA373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF6EFF92152D7E6005CA373 /* ViewController.swift in Sources */,
+				FBF6EFF72152D7E6005CA373 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF6F0102152D7E7005CA373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF6F01C2152D7E7005CA373 /* ExtensionDelegate.swift in Sources */,
+				FBF6F0332152D8C3005CA373 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBF6F0082152D7E7005CA373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBF6F0042152D7E7005CA373 /* Vibration WatchKit App */;
+			targetProxy = FBF6F0072152D7E7005CA373 /* PBXContainerItemProxy */;
+		};
+		FBF6F0172152D7E7005CA373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBF6F0132152D7E7005CA373 /* Vibration WatchKit Extension */;
+			targetProxy = FBF6F0162152D7E7005CA373 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBF6EFFA2152D7E6005CA373 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF6EFFB2152D7E6005CA373 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBF6EFFF2152D7E6005CA373 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF6F0002152D7E6005CA373 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBF6F0232152D7E8005CA373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBF6F0242152D7E8005CA373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF6F0262152D7E8005CA373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLT93SF9JM;
+				INFOPLIST_FILE = "Vibration WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViniciusBonemer.Vibration.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		FBF6F0272152D7E8005CA373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLT93SF9JM;
+				INFOPLIST_FILE = "Vibration WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViniciusBonemer.Vibration.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		FBF6F02A2152D7E8005CA373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLT93SF9JM;
+				IBSC_MODULE = Vibration_WatchKit_Extension;
+				INFOPLIST_FILE = "Vibration WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViniciusBonemer.Vibration.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		FBF6F02B2152D7E8005CA373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLT93SF9JM;
+				IBSC_MODULE = Vibration_WatchKit_Extension;
+				INFOPLIST_FILE = "Vibration WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViniciusBonemer.Vibration.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		FBF6F02E2152D7E8005CA373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLT93SF9JM;
+				INFOPLIST_FILE = Vibration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViniciusBonemer.Vibration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBF6F02F2152D7E8005CA373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLT93SF9JM;
+				INFOPLIST_FILE = Vibration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViniciusBonemer.Vibration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF6EFEE2152D7E6005CA373 /* Build configuration list for PBXProject "Vibration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF6F0232152D7E8005CA373 /* Debug */,
+				FBF6F0242152D7E8005CA373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF6F0252152D7E8005CA373 /* Build configuration list for PBXNativeTarget "Vibration WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF6F0262152D7E8005CA373 /* Debug */,
+				FBF6F0272152D7E8005CA373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF6F0292152D7E8005CA373 /* Build configuration list for PBXNativeTarget "Vibration WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF6F02A2152D7E8005CA373 /* Debug */,
+				FBF6F02B2152D7E8005CA373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF6F02D2152D7E8005CA373 /* Build configuration list for PBXNativeTarget "Vibration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF6F02E2152D7E8005CA373 /* Debug */,
+				FBF6F02F2152D7E8005CA373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBF6EFEB2152D7E6005CA373 /* Project object */;
+}
